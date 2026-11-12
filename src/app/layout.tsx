@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
+import "@/shared/styles/fonts.css";
 
 export const metadata: Metadata = {
   title: { default: "Marriage Management", template: "%s | Marriage Management" },

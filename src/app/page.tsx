@@ -1,13 +1,11 @@
-import Link from "next/link";
+import type { Metadata } from "next";
+import { HomePage } from "@/components/home/home-page";
 
-export default function HomePage() {
-  return (
-    <main className="container">
-      <p className="eyebrow">Marriage Management V1</p>
-      <h1>A shared space for your wedding.</h1>
-      <p>Plan, coordinate, celebrate, and preserve your wedding memories.</p>
-      <p className="notice">Project foundation is ready. Wedding features are coming next.</p>
-      <Link className="button" href="/app">View workspace preview</Link>
-    </main>
-  );
+export const metadata: Metadata = {
+  title: "Marriage Management — Your Indian Wedding. One Shared Plan.",
+  description: "One shared workspace for your Indian wedding. Organize events, tasks, guests, invitations, expenses, and memories with your family.",
+};
+
+export default function Page() {
+  return <HomePage />;
 }

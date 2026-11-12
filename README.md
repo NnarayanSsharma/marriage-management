@@ -16,6 +16,18 @@ Use isolated development credentials and data.
 
 ## Current scope
 
+The public homepage at `/` implements the reviewed Google Stitch landing-page
+design with V1-aligned copy, responsive navigation, native FAQ disclosures, and
+illustrative dashboard/invitation previews. Previews use fictional information
+and do not perform wedding operations. Signup remains a placeholder. The sign-in
+page at `/login` implements the reviewed Stitch design with password visibility,
+native required-field validation, and a clear preview-only submission message.
+It sends no credentials and creates no session. Password recovery remains a
+placeholder. Sign-in UI lives in `src/modules/auth/components`.
+Homepage styles are scoped in `src/components/home`;
+Plus Jakarta Sans is self-hosted with its license in `public/fonts`.
+Its shared font declarations live in `src/shared/styles/fonts.css`.
+
 The scaffold includes route groups, a workspace preview, feature placeholders,
 shared API response types, lazy server-only database configuration, and a cached
 Mongoose connection helper. It does not implement authentication, authorization,
