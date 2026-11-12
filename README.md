@@ -3,6 +3,9 @@
 A local Next.js App Router scaffold for the approved TypeScript modular monolith.
 The four documents in `docs/` remain the architecture baseline.
 
+See [the project tracker](docs/TRACKER.md) for completed work, remaining phases,
+open decisions, and the next task to resume.
+
 ## Local development
 
 Use Node.js 22 and npm. Install with `npm ci`, then run `npm run dev`.
