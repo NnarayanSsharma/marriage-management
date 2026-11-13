@@ -127,3 +127,7 @@
 
 .field input[aria-invalid="true"] { border-color: #a62e41; }
 .fieldError { color: #a62e41; font-size: 12px; line-height: 1.65; margin-top: 7px !important; }
+.rings { width: 100%; max-width: 300px; margin: 0 auto; }
+.guidance { font-size: 12px; color: var(--muted); margin-top: 7px !important; }
+.page button:disabled { opacity: .6; cursor: wait; }
+.formContent form { margin-top: 26px; }
